@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": 0,
+    "import/extensions": 0,
+    "import/no-unresolved": [2, { "ignore": ["react"] }],
+    "import/no-extraneous-dependencies": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-return-assign": 0,
+    "react/jsx-filename-extension": 0,
+    "react/sort-comp": [1, {
+      "order": [
+        "static-methods",
+        "everything-else",
+        "lifecycle",
+        "render"
+      ]
+    }]
+  }
+}
